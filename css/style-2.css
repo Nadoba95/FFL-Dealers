@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************************************ TOP SECTION ************************************/
+.top-section {
+    background-color: #252424;
+}
+
+.div-top-section {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-image {
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 35px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars {
+    color: #439ed8;
+    font-size: 30px;
+    display: none;
+}
+
+.nav-image1 {
+    background-image: url("../images/gun-icon.png");
+    background-size: cover;
+    background-position: center;
+    width: 25px;
+    height: 18px;
+}
+
+.nav-image2 {
+    background-image: url("../images/blog-icon.png");
+    background-size: cover;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+
+.nav-image3 {
+    background-image: url("../images/donate-icon.png");
+    background-size: cover;
+    background-position: center;
+    width: 23px;
+    height: 23px;
+}
+
+.nav-image4 {
+    background-image: url("../images/login-icon.png");
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+    height: 20px;
+}
+
+.nav-image5 {
+    background-image: url("../images/register-icon.png");
+    background-size: cover;
+    background-position: center;
+    width: 22px;
+    height: 21px;
+}
+
+.top-span {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.nav-images {
+    margin: 0 10px 0 45px;
+}
+
+.top-section a {
+    text-decoration: none;
+}
+
+/************************************ BREADCRUMBS SECTION ************************************/
+.breadcrumbs-section {
+    background-color: #dddddd;
+}
+
+.div-breadcrumbs-section {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.breadcrumbs-arrow {
+    color: #439ed8;
+    margin: 0 10px;
+}
+
+/************************************ TOP NAVIGATION SECTION ************************************/
+.top-nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 5px 0 5px;
+}
+
+.top-nav-eclipse1 {
+    background-color: #00a5fa;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-eclipse2,
+.top-nav-eclipse3,
+.top-nav-eclipse4 {
+    background-color: #dddddd;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-arrow {
+    color: #439ed8;
+    display: none;
+    margin: 0 10px;
+}
+
+.top-nav-span1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:white;
+}
+
+.top-nav-span2,
+.top-nav-span3,
+.top-nav-span4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #9f9f9f;
+}
+
+.top-nav-p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.top-nav-p2,
+.top-nav-p3,
+.top-nav-p4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #9f9f9f;
+}
+
+.top-nav-eclipse {
+    margin-left: 120px;
+}
+
+.top-nav-p {
+    padding-left: 20px;
+}
+
+/************************************ TOP FORM SECTION ************************************/
+.top-form-h1 {
+    padding: 100px 0 75px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.top-form-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.top-form-h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #a1a1a1;
+    margin-bottom: 35px;
+}
+
+.top-form-row {
+    display: flex;
+    justify-content: center;
+}
+
+.top-form-selects {
+    width: 300px;
+    height: 68px;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #dddddd;
+    border: solid 5px #9f9f9f;
+    border-right: none;
+}
+
+.top-form-search-div {
+    width: 67px;
+    height: 68px;
+    background-color: #00a5fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #9f9f9f;
+}
+
+.search-button {
+    background-image: url("../images/search-button-icon.png");
+    width: 26px;
+    height: 27px;
+}
+
+.top-form-row a {
+    text-decoration: none;
+}
+
+.search-word {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+}
+
+/************************************ DEALERS SECTION ************************************/
+.dealers-section {
+    padding: 100px 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dealers-span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.dealers-span-blue {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #00a5fa;
+}
+
+.choose-dealer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-dealer-h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #a1a1a1;
+}
+
+.previous-next {
+    display: flex;
+    align-items: center;
+}
+
+.dealers-arrow {
+    color: #cccccc;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.span-previous,
+.span-next {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.gray {
+    width: 25px;
+    height: 25px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.blue{
+    width: 25px;
+    height: 25px;
+    background-color: #00a5fa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.form-flex {
+    display: flex;
+    align-items: center;
+}
+
+.form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.file-img {
+    width: 21px;
+    height: 26px;
+    background-image: url("../images/file.png");
+    background-size: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.radio {
+    min-width: 20px;
+    height: 20px;
+}
+
+.previous-next-copy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dealer-h4-margin {
+    padding: 100px 0 50px 0;
+}
+
+.dealers-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dealers-btn1 {
+    width: 190px;
+    height: 60px;
+    background-color: #adadad;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dealers-btn2 {
+    width: 190px;
+    height: 60px;
+    background-color: #00a5fa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/************************************ FOOTER SECTION ************************************/
+.footer-section {
+    background-color: #252424;
+    height: 270px;
+    padding: 50px 0 0 40px;
+}
+
+.footer-section-row {
+    display: flex;
+    justify-content: center;
+    padding-right: 405px;
+}
+
+.footer-logo-1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    color: #00a5fa;
+}
+
+.footer-logo-2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+.icon-row {
+    display: flex;
+    padding-top: 45px;
+}
+
+.tw-icon,
+.fb-icon {
+    margin-right: 15px;
+}
+
+.tw-icon {
+    background-image: url("../images/twiter-icon.png");
+    width: 50px;
+    height: 50px;
+}
+
+.fb-icon {
+    background-image: url("../images/facebook-icon.png");
+    width: 50px;
+    height: 50px;
+}
+
+.ig-icon {
+    background-image: url("../images/instagram-icon.png");
+    width: 50px;
+    height: 50px;
+}
+
+.footer-section-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    justify-content: space-between;
+}
+
+.footer-arrow {
+    color: #439ed8;
+    margin: 0 0 0 10px;
+}
+
+.footer-section-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section-link:hover {
+    text-decoration: underline;
+}
+
+/************************************ FOOTER 2 SECTION ************************************/
+.footer-2-section {
+    background-color: #191818;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+/***************************************** MEDIA QUERIES *************************************/
+
+/************** Desktop **************/
+@media (max-width: 1234px) {
+    .logo-image {
+        width: 237px;
+        height: 24px;
+    }
+
+    .nav-images {
+        margin: 0px 10px 0 25px;
+    }
+
+    .top-nav-eclipse {
+        margin-left: 80px;
+    }
+
+    .footer-section-row {
+        padding-right: 196px;
+    }
+}
+
+/************** Laptop **************/
+@media (max-width: 1024px) {
+    .div-top-section {
+        padding: 0 15px;
+    }
+
+    .logo-image {
+        width: 184px;
+        height: 18px;
+    }
+
+    .nav-images {
+        margin: 0px 10px 0 9px;
+    }
+
+    .div-breadcrumbs-section {
+        padding: 0 15px;
+    }
+
+    .top-nav-eclipse {
+        margin-left: 15px;
+    }
+
+    .top-form-selects {
+        width: 200px;
+    }
+
+    .footer-section-row {
+        padding-right: 0px;
+    }
+
+    .footer-section {
+        padding: 50px 0 0 15px;
+    }
+
+    .footer-section-column {
+        padding-left: 130px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .dealers-span-blue {
+        margin: 0 10px;
+    }
+
+    .choose-dealer-h4 {
+        padding-top: 10px;
+    }
+
+    .choose-dealer-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .previous-next-copy {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+}
+
+/************** Tablet **************/
+@media (max-width: 768px) {
+    .fa-bars {
+        color: white;
+        font-size: 30px;
+        display: block;
+    }
+
+    .top-right {
+        display: none;
+    }
+
+    .top-nav-eclipse3,
+    .top-nav-eclipse4 {
+        display: none;
+
+    }
+
+    .top-nav-p3, .top-nav-p4 {
+        display: none;
+    }
+
+    .top-nav-arrow {
+        display: block;
+        font-size: 24px;
+    }
+
+    .top-form-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-form-selects {
+        width: 370px;
+    }
+
+    .top-form-selects {
+        border-bottom: none;
+        border-right: solid 5px #9f9f9f;
+    }
+
+    .top-form-search-div {
+        width: 370px;
+    }
+
+    .search-button {
+        display: none;
+    }
+
+    .search-word {
+        display: block;
+    }
+
+    .footer-section {
+        height: auto;
+        padding: 50px 10px;
+    }
+
+    .footer-section-row {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 70px;
+    }
+
+    .footer-section-column-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 1 / 3;
+    }
+
+    .footer-logo-1,
+    .footer-logo-2 {
+        font-size: 48px;
+    }
+
+    .icon-row {
+        padding: 20px 0 30px 0;
+    }
+
+    .footer-section-column {
+        padding-left: 20px;
+        height: 130px;
+    }
+
+    .top-form-row {
+        margin-bottom: 90px;
+    }
+
+    .dealers-section {
+        padding: 50px 10px;
+    }
+
+
+}
+
+/************** Mobile **************/
+@media (max-width: 480px) {
+    .top-nav-p2 {
+        display: none;
+    }
+
+    .top-form-selects {
+        width: 100%;
+    }
+
+    .top-form-row a {
+        width: 100%;
+    }
+
+    .top-form-search-div {
+        width: 100%;
+    }
+
+    .footer-section-row {
+        column-gap: 0px;
+    }
+
+    .footer-section-column {
+        padding-left: 9px;
+    }
+
+    .top-form-h2 {
+        font-size: 26px;
+    }
+
+    .dealers-span-blue,
+    .dealers-span {
+        font-size: 27px;
+    }
+
+    .form-label {
+        font-size: 22px;
+    }
+
+    .file-img {
+        width: 17px;
+        height: 22px;
+    }
+    
+}
