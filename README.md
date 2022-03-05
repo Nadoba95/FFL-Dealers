@@ -1,3 +1,3 @@
 # FFL Dealers
 
-Full Responsive Pages
+Practice responsive pages
